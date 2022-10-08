@@ -62,6 +62,7 @@
             this.modificarXMLToolStripMenuItem.Name = "modificarXMLToolStripMenuItem";
             this.modificarXMLToolStripMenuItem.Size = new System.Drawing.Size(240, 42);
             this.modificarXMLToolStripMenuItem.Text = "Modificar XML";
+            this.modificarXMLToolStripMenuItem.Click += new System.EventHandler(this.modificarXMLToolStripMenuItem_Click);
             // 
             // salirToolStripMenuItem
             // 

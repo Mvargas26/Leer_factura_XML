@@ -36,5 +36,20 @@ namespace Examen_1_Michael_Vargas_Punto_1_y_2
         {
             this.Close();
         }
+
+        private void modificarXMLToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                frm_ModificarXML pantalla = new frm_ModificarXML();
+                pantalla.MdiParent = this;
+                pantalla.Show();
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.Message);
+            }
+        }
     }//fin class
 }//fin space
